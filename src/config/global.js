@@ -1,7 +1,7 @@
 export default {
   global: {
     numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    tituloUnidad: 'Delitos contra el régimen constitucional y legal',
   },
   menuPrincipal: {
     menu: [
@@ -15,7 +15,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Rebelión, sedición y asonada',
         desarrolloContenidos: true,
         subMenu: [
           {
