@@ -97,26 +97,112 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
-      link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'Llerenas, F. G. & Tamayo, J. (1995). El levantamiento de la huertista: cuatro rebeliones y cuatro jefes militares. Universidad de Guadalajara.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/73391?page=10',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Herrero Bervera, C. (2001). Revuelta, rebelión y revolución en 1810: historia social y estudios de caso. Editorial Miguel Ángel Porrúa.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/74850?page=100',
+    },
+    {
+      referencia:
+        'Agudo Fernández, E. & Jaén Vallejo, M. (2019). Derecho penal aplicado: parte especial. Dykinson.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/118404?page=304',
+    },
+    {
+      referencia:
+        'Gutiérrez Guerrero, M. A. (2016). Régimen constitucional colombiano, su historia y desarrollo. Ediciones USTA.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/68980?page=17',
+    },
+    {
+      referencia:
+        'Ramírez López, D., Rangel Angulo, D. V. & Sanabria Villamizar, R. J. (2023). Parámetros de convencionalidad del delito político en Colombia. Justicia, 28(44), 107-126.',
+      link: 'https://doi.org/10.17081/just.28.44.6091',
+    },
+    {
+      referencia:
+        'Gabás Pallas, R. & Gabás Pallas, R. (Trad.). (2015). Heidegger y el mito de la conspiración mundial de los judíos. Herder Editorial.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/85123?page=21',
+    },
+    {
+      referencia:
+        'García-Noblejas, J. J. (2006). Medios de conspiración social (3ª ed.). EUNSA.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/101430',
+    },
+    {
+      referencia:
+        'Posada Maya, R. (2010). Delito político, terrorismo y temas de Derecho penal. Universidad de los Andes.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/6936',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Asonada',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'Levantamiento tumultuario y violento para coaccionar a la autoridad, sin intención de sustituir el régimen político.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Cadena de mando',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'Estructura jerárquica que organiza y distribuye funciones dentro de cuerpos armados o administrativos del Estado.',
+    },
+    {
+      termino: 'Conspiración',
+      significado:
+        'Acuerdo entre varias personas para promover u organizar una insurrección armada, sin ejecutarla todavía.',
+    },
+    {
+      termino: 'Delito político',
+      significado:
+        'Conducta punible con finalidad ideológica que atenta contra el régimen constitucional o legal.',
+    },
+    {
+      termino: 'Desobediencia institucional',
+      significado:
+        'Acción de no acatar órdenes legítimas, afectando el funcionamiento jerárquico del Estado.',
+    },
+    {
+      termino: 'Indulto',
+      significado:
+        'Mecanismo legal que extingue o conmuta una pena, impuesta por razones políticas o humanitarias.',
+    },
+    {
+      termino: 'Jurisdicción Especial para la Paz (JEP)',
+      significado:
+        'Órgano transicional encargado de juzgar delitos en el marco del conflicto armado colombiano.',
+    },
+    {
+      termino: 'Movimiento armado',
+      significado:
+        'Grupo organizado con fines políticos que utiliza la violencia para modificar el régimen constitucional.',
+    },
+    {
+      termino: 'Rebelión',
+      significado:
+        'Alzamiento armado contra el gobierno con el propósito de derrocarlo, o modificar el orden constitucional.',
+    },
+    {
+      termino: 'Retención ilegal de mando',
+      significado:
+        'Negarse a entregar un cargo de autoridad luego de haber sido removido legalmente.',
+    },
+    {
+      termino: 'Seducción de mando',
+      significado:
+        'Inducción a miembros de la fuerza pública para desobedecer órdenes o incumplir funciones.',
+    },
+    {
+      termino: 'Sedición',
+      significado:
+        'Alzamiento colectivo y público, para impedir temporalmente el ejercicio legítimo de la autoridad estatal.',
+    },
+    {
+      termino: 'Suplantación de autoridad',
+      significado:
+        'Ejercicio ilegítimo de funciones públicas sin contar con la investidura legal correspondiente.',
     },
   ],
 }
