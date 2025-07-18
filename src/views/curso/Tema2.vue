@@ -196,10 +196,7 @@
               p Algunos casos han involucrado a personas que, simulando ser miembros activos de la Policía Nacional, han montado retenes ilegales en carreteras donde exigían documentos y cobraban supuestas multas a los ciudadanos. En otros escenarios, individuos han usurpado funciones en contextos de conflictos sociales, haciéndose pasar por representantes de la fuerza pública en medio de protestas o desalojos para intimidar o reprimir a la población. Incluso se han dado situaciones más sofisticadas, donde se usan documentos falsos, carnés adulterados, o respaldos falsos de supuestas resoluciones administrativas. Estas formas de usurpación, más allá de suplantar identidades, erosionan la credibilidad de las instituciones, generan desconfianza ciudadana y pueden facilitar la comisión de otros delitos, como la extorsión, el secuestro o el fraude. El Derecho penal protege, en este caso, la fe pública, la legalidad en el ejercicio del poder y la correcta delimitación de las funciones del Estado, previniendo que actores no autorizados tomen decisiones que afecten derechos fundamentales.
       
             .div(titulo="La retención ilegal de mando")
-              p Es una figura que sanciona al servidor público que, habiendo sido designado legalmente para un cargo de mando, se niega a entregar dicha función cuando ha sido removido, suspendido o reemplazado por la autoridad competente. Aunque pueda parecer una conducta meramente administrativa o una forma de desacuerdo institucional, en realidad constituye una prolongación indebida del ejercicio del poder y una violación al principio de legalidad. Esta conducta suele presentarse en contextos de tensión política o administrativa, donde quien ostentaba un cargo de dirección considera injusto su retiro y decide continuar ejerciendo funciones como si aún tuviera legitimidad jurídica.
-      
-            .div(titulo="Ejemplo")
-              p Un comandante de estación de policía que recibe una orden de traslado y se niega a acatarla, impidiendo el ingreso de su reemplazo, firmando oficios, coordinando operativos y presentándose ante la comunidad como autoridad vigente, incurre en retención ilegal de mando. También puede ocurrir que un director regional de una entidad del Estado, cuyo nombramiento ha sido revocado, continúe ocupando la oficina, convocando personal y utilizando los recursos institucionales, bajo el argumento de que la decisión es política o arbitraria. Aunque estas actitudes puedan estar motivadas por desacuerdos o tensiones internas, desde el punto de vista jurídico se trata de actos dolosos que mantienen el ejercicio de la autoridad sin respaldo legal. Además, pueden generar dualidad de mando, desorientación en los subordinados, conflictos jerárquicos e incluso parálisis institucional (Posada Maya, 2010).
+              p Es una figura que sanciona al servidor público que, habiendo sido designado legalmente para un cargo de mando, se niega a entregar dicha función cuando ha sido removido, suspendido o reemplazado por la autoridad competente. Aunque pueda parecer una conducta meramente administrativa o una forma de desacuerdo institucional, en realidad constituye una prolongación indebida del ejercicio del poder y una violación al principio de legalidad. Esta conducta suele presentarse en contextos de tensión política o administrativa, donde quien ostentaba un cargo de dirección considera injusto su retiro y decide continuar ejerciendo funciones como si aún tuviera legitimidad jurídica. Además, pueden generar dualidad de mando, desorientación en los subordinados, conflictos jerárquicos e incluso parálisis institucional (Posada Maya, 2010).
 
 
       .row.mb-5
@@ -276,7 +273,11 @@
       
       
       
-      
+      .bg-full-width.border-top.actividad.bg-color-actividad
+        .p-4.p-md-5
+          #Actividad                
+            <Actividad :cuestionario="cuestionario"/>
+
 
       
       
@@ -295,15 +296,19 @@
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+                a(href="https://revistas.javerianacali.edu.co/index.php/criteriojuridico/article/view/907/762" target="_blank" rel="noopener noreferrer") Restrepo Orrego, L. A. (2018). Aproximación desde Michel Foucault a la transformación contemporánea del delito político en Colombia: de un mecanismo de normalización a un mecanismo de rechazo. Criterio Jurídico, 11(1), 165-182. 
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-                span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+                span Arboleda Vallejo, M., & Ruiz Salazar, J. A. (2025). Manual de Derecho Penal Especial. Editorial Leyer.
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-                a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+                a(href="https://www.youtube.com/watch?v=ugt9N2XOhaM" target="_blank" rel="noopener noreferrer") Historias de Adelina. (2021). Conspiraciones en la Independencia: Verdades y Mitos. Parte 1 [video]. YouTube.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.youtube.com/watch?v=9fexGmfJ2k4" target="_blank" rel="noopener noreferrer") andresoasis. (2014). 9 May 2012 Caso Daktari: paramilitares colombianos revelan detalles de la conspiración [video]. YouTube. 
   
             .col-12.col-md-6.col-lg-3.offset-lg-1
               figure
@@ -323,3 +328,200 @@ export default {
 </script>
 
 <style lang="sass"></style>
+
+<script>
+import Actividad from '@/components/actividad/Actividad.vue'
+export default {
+  name: 'Tema3',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Herramientas colaborativas para la construcción de paz',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              '¿Cuál de los siguientes principios SOLID promueve la separación de responsabilidades en una clase?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Principio de Inversión de Dependencias',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Principio de Sustitución de Liskov',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Principio de Responsabilidad Única',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Principio de Abierto/Cerrado',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! El Principio de Responsabilidad Única promueve la separación de responsabilidades.',
+            mensaje_incorrecto:
+              'Incorrecto. El principio correcto es el de Responsabilidad Única.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Cuál es el objetivo principal del patrón de diseño Singleton?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Crear múltiples instancias de una clase para mejorar el rendimiento',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Garantizar que una clase tenga una única instancia accesible globalmente',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Delegar la creación de objetos a una subclase',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Evitar el uso de interfaces',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! El objetivo del Singleton es garantizar una única instancia global.',
+            mensaje_incorrecto:
+              'Incorrecto. El objetivo principal es garantizar una única instancia accesible globalmente.',
+          },
+          {
+            id: 3,
+            texto:
+              '¿Qué característica distingue al patrón Factory Method de otros patrones creacionales?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Proporciona una instancia única',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Permite a las subclases decidir qué objeto instanciar',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Reemplaza las relaciones entre objetos',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Define objetos como estructuras planas',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! El Factory Method permite a las subclases decidir qué objeto instanciar.',
+            mensaje_incorrecto:
+              'Incorrecto. La característica clave es que permite a las subclases decidir qué objeto instanciar.',
+          },
+          {
+            id: 4,
+            texto:
+              '¿Qué elemento de un diagrama de clases representa una relación de herencia?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              { id: 'a', texto: 'Línea continua con rombo', esCorrecta: false },
+              {
+                id: 'b',
+                texto: 'Línea discontinua con flecha',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Línea con triángulo blanco apuntando hacia la superclase',
+                esCorrecta: true,
+              },
+              { id: 'd', texto: 'Línea curva con punto', esCorrecta: false },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La herencia se representa con una línea y triángulo blanco hacia la superclase.',
+            mensaje_incorrecto:
+              'Incorrecto. La relación de herencia se representa con una línea y triángulo blanco.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Qué describe principalmente un diagrama de secuencia en UML?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'La estructura estática del sistema',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'El ciclo de vida de una clase',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'La interacción temporal entre objetos',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'La relación entre módulos físicos',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! El diagrama de secuencia describe la interacción temporal entre objetos.',
+            mensaje_incorrecto:
+              'Incorrecto. El diagrama de secuencia describe la interacción temporal entre objetos.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+}
+</script>
+
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>

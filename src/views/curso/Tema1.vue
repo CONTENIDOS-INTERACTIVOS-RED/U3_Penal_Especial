@@ -388,15 +388,31 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+              a(href="https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0185-16162018000200185" target="_blank" rel="noopener noreferrer") Pereyra, G. (2018). Locke y la teoría de la rebelión popular. Estudios políticos (México,) (44), 185-201.  
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://repositorio.uniandes.edu.co/entities/publication/f6bd1835-714d-4605-b502-9c50c8cc0ed7" target="_blank" rel="noopener noreferrer") Zapata Martínez, R. (2022). Rebelión. Universidad de los Andes. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://repositorio.comillas.edu/jspui/bitstream/11531/29280/1/TFG%20Juan%20PasquAn%20-%20Los%20delitos%20de%20rebeliAn%20y%20sediciAn.pdf" target="_blank" rel="noopener noreferrer") Pasquín Llorente, J. (2019). Los delitos de rebelión y sedición. Universidad Pontificia Comillas. Repositorio Comillas. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://revistas.santototunja.edu.co/index.php/piuris/article/view/806/784" target="_blank" rel="noopener noreferrer") Espinosa Marcka, L. R. (2013). Una mirada al delito político, sustento de la existencia de los presos y presas políticos. REVISTA PRINCIPIA IURIS, 20 (7), 149–166. 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://www.youtube.com/watch?v=mFcrv9syY5c" target="_blank" rel="noopener noreferrer") MCRC. (2022). No fue sedición, fue rebelión [video]. YouTube. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=TzJfEasmcsI" target="_blank" rel="noopener noreferrer") Gesmepol. (2016). Delitos contra el Orden Público [video]. YouTube. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=ty65PHgS3mM" target="_blank" rel="noopener noreferrer") TV San Jorge. (2020). En asonada terminó captura de dos personas en San Calixto [video]. YouTube.
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
