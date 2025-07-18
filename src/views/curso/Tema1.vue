@@ -185,6 +185,178 @@
       .col-lg-4.d-none.d-sm-block
         figure
           img(src="@/assets/curso/tema1/14.png", data-aos="zoom-in").mb-4.mb-lg-0
+
+
+    #t_1_2.titulo-segundo(data-aos="flip-up")
+      h2 #[span 1.2] Sedición
+
+
+    p(data-aos="fade-left").mb-4 La comprensión de los delitos que afectan el orden institucional y la autoridad pública es esencial para el estudio del Derecho Penal en Colombia.
+
+
+    .bg-full-width.bg-color-8.mb-lg-5
+      .px-4.p-md-5
+        .row.justify-content-center.align-items-center
+          .col-lg-4
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/15.png', alt='')
+    
+          .col-lg-8
+            h2.mb-4(data-aos="flip-up") Sedición
+            p.mb-4(data-aos="fade-right") En el PDF sobre Sedición, se analiza en profundidad esta conducta punible que, sin implicar una intención revolucionaria, representa un alzamiento colectivo dirigido a obstruir el ejercicio legítimo del poder estatal. A través de fundamentos normativos, elementos estructurales y ejemplos aplicados, se expone cómo el Derecho Penal sanciona estas formas de desobediencia organizada, que ponen en riesgo el funcionamiento de las instituciones democráticas.
+    
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                p <strong>Anexo. </strong> Sedición
+
+
+    #t_1_3.titulo-segundo(data-aos="flip-up")
+      h2 #[span 1.3] Asonada
+
+
+    .row.mb-5
+      .col-lg-8
+        p(data-aos="fade-left") El delito de asonada, recogido en el Artículo 469 del Código Penal colombiano, constituye una figura normativa que funciona como barrera de contención entre el legítimo derecho a la protesta y el uso arbitrario de la fuerza colectiva para coaccionar a la autoridad. 
+    
+    
+        .bg-color-2.p-4(data-aos="fade-left").mb-4
+          p.mb-0 La tipificación de esta conducta responde a la necesidad de preservar la estabilidad institucional y de salvaguardar el principio de que las decisiones estatales deben adoptarse a través de los canales democráticos y no bajo la presión de la violencia. Aunque su enunciado normativo parezca conciso, su alcance práctico es mucho más extenso, pues abarca una amplia gama de situaciones en las que la indignación social, la frustración o la inconformidad traspasan el umbral de la legalidad y se convierten en actos que lesionan el orden público y la seguridad de las personas (Ramírez López, Rangel Angulo & Sanabria Villamizar, 2023). 
+
+        p(data-aos="fade-left") La asonada exige la concurrencia de al menos tres elementos sustanciales:
+    
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/tema1/16.png", data-aos="zoom-in")
+
+
+    TabsC.color-acento-contenido.mb-0
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Pluralidad de Agentes" :icon="require('@/assets/bullets/icon-tab-c-1.svg')" )
+        .row
+          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+            h4 Pluralidad de Agentes
+            p En primer lugar, se requiere una pluralidad de agentes que actúen de manera tumultuaria, generando una masa crítica capaz de producir intimidación. Esta pluralidad no se limita únicamente al número de participantes, sino que implica una actuación coordinada o simultánea que genere un efecto intimidatorio sobre las autoridades o la población.
+          .col-md-6.col-lg-5.col-xl-4.order-1
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/17.png', alt='')
+    
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Violencia Material" :icon="require('@/assets/bullets/icon-tab-c-1.svg')" )
+        .row
+          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+            h4 Violencia Material
+            p En segundo término, esta masa debe recurrir a la violencia material, ya sea mediante agresiones directas, destrucción de instalaciones, o amenazas creíbles que constriñan la voluntad de las autoridades. La violencia material puede manifestarse de diversas formas, desde actos de vandalismo hasta amenazas que generen temor legítimo en las autoridades.
+          .col-md-6.col-lg-5.col-xl-4.order-1
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/18.png', alt='')
+    
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Propósito Coactivo" :icon="require('@/assets/bullets/icon-tab-c-1.svg')" )
+        .row
+          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+            h4 Propósito Coactivo
+            p Finalmente debe acreditarse que el acto violento tenga un propósito coactivo inmediato, es decir, que busque forzar a las autoridades a realizar, abstenerse de realizar o suspender alguna de sus funciones. Este elemento subjetivo es fundamental para distinguir la asonada de otras manifestaciones de violencia colectiva que no persiguen este objetivo específico.
+          .col-md-6.col-lg-5.col-xl-4.order-1
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/19.png', alt='')
+
+
+    .bg-color-4.mb-5
+      .px-4.px-md-5.py-4
+        .row.align-items-center
+          .col-lg-auto
+            img(src="@/assets/curso/tema1/icono.svg", style="max-width: 90px").mx-auto
+          .col-lg.text-white
+            p.mb-0 Estas tres notas permiten distinguir la asonada de los disturbios espontáneos que, aun siendo violentos, carecen de un propósito de presión institucional, así como de la rebelión, que pretende la sustitución del régimen constitucional, y de la sedición, que busca la paralización prolongada de la autoridad.
+
+
+    .bg-color-1.mb-5(data-aos="fade-up")
+      .row.justify-content-center.align-items-center
+        .col-lg
+          .p-4
+            p.mb-0(data-aos="fade-up") En la práctica forense, uno de los retos centrales radica en identificar cuándo una protesta, inicialmente legítima, se convierte en asonada. Un ejemplo revelador ocurrió en el marco de una huelga de transportadores, donde un grupo de manifestantes bloqueó vías principales durante varios días. Mientras los bloqueos, aunque ilícitos en materia de tránsito, no configuran per se asonada, la situación cambió radicalmente cuando los participantes incendiaron vehículos oficiales con el objetivo expreso de obligar a la Alcaldía a retirar un decreto de restricción vehicular. La quema de bienes públicos para forzar la derogatoria de un acto administrativo constituye un uso de violencia colectiva con finalidad coactiva, lo que encuadra dentro del tipo penal. En otra ocasión, comerciantes de un municipio que exigían la revocatoria de un alza impositiva invadieron y saquearon la secretaría de hacienda local. El acto no se orientó a derrocar a las autoridades ni a usurpar sus funciones, sino a obligarlas a revocar la medida. Esa presión violenta, estructurada en masa, culminó en la formulación de cargos por asonada.
+        .col-lg-auto
+          figure
+            img(src='@/assets/curso/tema1/20.svg', alt='')
+
+
+
+    .row.align-items-center.mb-5
+      .col-lg-auto
+        img(src="@/assets/curso/tema1/21.svg", style="max-width: 85px").mx-auto
+      .col-lg
+        p.mb-0 No obstante, la lógica de protección del derecho a la protesta obliga a un examen minucioso de la proporcionalidad estatal. Así lo subrayó la Corte Suprema de Justicia al estudiar un caso en que un grupo de campesinos bloqueó la entrada a una oficina de restitución de tierras, limitándose a sentarse pacíficamente y a levantar pancartas. La Policía retiró a los manifestantes y la Fiscalía inició investigaciones por asonada. El Alto Tribunal concluyó que no se configuraba el delito porque, pese a la afectación temporal de la actividad administrativa, no se usó la violencia ni se amenazó a los funcionarios. La manifestación se mantuvo dentro de los márgenes del Artículo 37 Constitucional. Esta distinción es importante para evitar que el tipo penal se convierta en instrumento de persecución política.
+
+
+    .row.mb-5
+      .col-lg-8
+        .bg-color-2.px-4.py-5(data-aos="fade-left").mb-4
+          p.mb-0 La dogmática penal resalta que la asonada es un delito de resultado cortado, esto es, basta la mera conducta de violencia con intención coactiva; no es necesario que la autoridad ceda ante la presión ni que se produzcan los efectos deseados. Esta característica se explica desde la teoría de los delitos de peligro abstracto, pues el legislador castiga el riesgo que supone la sustitución de los canales democráticos por la fuerza tumultuaria, aun cuando no llegue a consumarse la imposición del reclamo. Además, se trata de un delito plurisubjetivo de convergencia, donde la conducta individual se diluye en la acción colectiva. No es imprescindible probar autoría concreta de cada participante; la teoría del dominio funcional del hecho permite atribuir responsabilidad a quien, mediante actos de liderazgo, instigación o contribución material, integra la masa violenta y coopera de modo sustancial con el propósito de coacción (Ramírez López, Rangel Angulo & Sanabria Villamizar, 2023).
+      .col-lg-4.d-none.d-sm-block
+        figure
+          img(src="@/assets/curso/tema1/22.png", data-aos="zoom-in").mb-4.mb-lg-0
+
+
+    .bg-color-7.mb-5(data-aos="fade-up")
+      .row.justify-content-center.align-items-center
+        .col-lg
+          .p-4.text-white
+            p.mb-0(data-aos="fade-up") La extensión del tipo penal se revela también en la posibilidad de concurso con otros delitos. Cuando la asonada deriva en lesiones personales, daño en bien ajeno o perturbación de transportes, la jurisprudencia permite sancionar ambos comportamientos de manera independiente, aplicando las reglas del concurso real. Esto responde al principio de lesividad acumulada. La asonada lesiona el orden público institucional, mientras las conductas concomitantes lesionan bienes jurídicos adicionales, lo que justifica la aplicación de penas distintas y acumulables.
+        .col-lg-auto
+          figure
+            img(src='@/assets/curso/tema1/23.png', alt='')
+
+
+    .row.align-items-start.mb-5
+      .col-lg-8
+    
+        AcordionA(tipo="b").acordion-a-2
+          .div(titulo="Graduación punitiva")
+            p En cuanto a la graduación punitiva, la pena básica de 12 a 24 meses de prisión, puede incrementarse si concurren circunstancias agravantes. Entre ellas se destaca la utilización de armas letales o explosivos, la afectación de servicios públicos esenciales, por ejemplo, la destrucción de redes de energía que abastecen a hospitales, o la participación de servidores públicos. Este último agravante cobra especial relevancia cuando miembros de la fuerza pública, en lugar de contener la violencia, se suman a la presión tumultuaria o facilitan la coerción contra sus propias autoridades. La doctrina considera que estos agravantes reflejan un reproche social mayor, pues potencian la peligrosidad de la conducta y dificultan la contención estatal.
+          .div(titulo="Dimensión criminológica")
+            p La dimensión criminológica de la asonada, revela fenómenos sociales complejos. Muchas veces surge en entornos de precariedad, ausencia de canales de interlocución efectivos y desconfianza hacia las instituciones. Este contexto no exime de responsabilidad penal, pero exige políticas públicas que fortalezcan los mecanismos de diálogo y la presencia estatal en territorios históricamente marginados. La Organización de las Naciones Unidas ha llamado la atención sobre la necesidad de garantizar que las fuerzas de seguridad respondan con criterios de legalidad, necesidad y proporcionalidad, a fin de evitar que la represión desmedida de disturbios legitime nuevas formas de violencia colectiva.
+          .div(titulo="Análisis comparado")
+            p El análisis comparado muestra que la figura de la asonada tiene equivalentes en otros ordenamientos. El Código Penal español establece el delito de desórdenes públicos agravados cuando se actúa en grupo con violencia grave para impedir o coaccionar la actuación de la autoridad. El Código Penal argentino tipifica un delito similar bajo la denominación de turbación del orden público. Estas figuras, aunque con matices propios, comparten la preocupación por limitar la violencia de masas sin criminalizar la protesta legítima (Ramírez López, Rangel Angulo & Sanabria Villamizar, 2023).
+    
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/tema1/24.png", alt="").mb-4.mb-lg-0
+
+
+    .row.mb-5
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/tema1/25.png", data-aos="zoom-in")
+      .col-lg-8
+        p(data-aos="fade-left").mb-4 En Colombia, la mayor parte de sentencias condenatorias por asonada se originan en contextos urbanos donde confluyen factores de inconformidad social y presencia mediática. Sin embargo, también existen fallos por asonada rural, como el registrado en una vereda del Cauca, donde pobladores iracundos atacaron un puesto de salud y amenazaron al personal médico para exigir la asignación de ambulancias. El tribunal sostuvo que la penetración violenta de un establecimiento sanitario, sumada a la coacción sobre los funcionarios, configuraba la conducta, pese a que no se trataba de una protesta masiva en una capital de departamento.
+    
+        .bg-color-5.p-4(data-aos="fade-left")
+          p.mb-0 La doctrina penal insiste en que la respuesta judicial debe ser diferenciada. No es lo mismo la actuación de un líder que convoca, dirige y participa activamente en la violencia, que la de un sujeto que se integra a la masa por curiosidad o miedo, sin contribución relevante. La teoría del autor de atrás o inspirador quien planifica y dirige sin presentarse en la escena también ha sido objeto de decisiones jurisprudenciales, pues su aporte intelectual puede ser tan determinante como la violencia directa de quienes golpean o destruyen.
+
+
+    .bg-full-width.bg-color-4
+      .px-4.px-md-5.py-4
+        .row.align-items-center
+          .col-lg-auto
+            img(src="@/assets/curso/tema1/26.svg", style="max-width: 100px").mx-auto
+          .col-lg.text-white
+            p.mb-0 Finalmente, es importante subrayar la relevancia del principio de oportunidad. La Fiscalía puede considerar la aplicación de este mecanismo cuando los daños sean menores, la violencia no haya causado lesiones serias y los acusados reparen integralmente los perjuicios. Esta salida alternativa busca centrar la persecución penal en los casos más graves y permite que la justicia adopte medidas restaurativas que restablezcan la confianza entre comunidad y autoridad.
+    
+    
+    
+    
+    
+
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
     
     
     
